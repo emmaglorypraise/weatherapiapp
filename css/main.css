@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+body{
+  background-color: rgb(34, 34, 83);
+  color: #ffffff;
+}
+
+/* MOBILE VIEW */
+
+/* NAVIGATION BAR */
+header {
+  margin-top: 20px;
+}
+
+.navbar-light .navbar-brand{
+  color: #ffffff;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navbar-light .navbar-toggler-icon {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  text-decoration: line-through;
+  color: #ffffff;
+}
+
+hr {
+  border-top: 1px solid #ffffff;
+}
+
+.search-box {
+  margin: 100px auto 10px;
+  width: 90%;
+
+}
+
+.search-box input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.search-box button {
+  background-color: rgb(34, 34, 83);
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #ffffff;
+  color: rgb(34, 34, 83);
+  border: 1px dashed rgb(34, 34, 83);
+}
+
+.attribution {
+  margin-top: 10px;
+  cursor: pointer;  
+}
+
+#about  h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+#about p {
+  background-color: #ffffff;
+  color: rgb(34, 34, 83);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+
+/* TABLET AND DESKTOP VIEW */
+@media(min-width: 767px) {
+  
+.search-box {
+  margin: 100px auto 10px;
+  width: 100%;
+}
+
+.search-box input {
+  text-align: left;
+  width: 500px;
+}
+
+.search-box button {
+  width: 150px;
+}
+
+}
