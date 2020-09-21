@@ -9,13 +9,55 @@
 body{
   background-color: rgb(34, 34, 83);
   color: #ffffff;
+  text-align: center;
+}
+
+.location .city {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.location .date {
+  font-size: 16px;
+}
+
+.current .temp {
+  font-size: 80px;
+  font-weight: 900;
+  margin: 10px 0px;
+  text-shadow: 2px 10px rgb(0, 0, 0, 0.6);
+}
+
+.current .temp span {
+  font-weight: 500;
+}
+
+.current .weather {
+  font-size: 28px;
+  font-weight: 700;
+  /* font-style: italic; */
+  margin-bottom: 5px;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.current .description {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.current .hi-low {
+  font-size: 24px;
+  font-weight: 500;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 40px;
 }
 
 /* MOBILE VIEW */
 
 /* NAVIGATION BAR */
 header {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .navbar-light .navbar-brand{
@@ -44,7 +86,7 @@ hr {
 }
 
 .search-box {
-  margin: 100px auto 10px;
+  margin: 70px auto 10px;
   width: 90%;
 
 }
@@ -111,5 +153,4 @@ hr {
 .search-box button {
   width: 150px;
 }
-
 }

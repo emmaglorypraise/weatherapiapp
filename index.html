@@ -45,8 +45,20 @@
     <div class="row ">
       <div class="col-md-12">
         <div class="search-box ">
-          <input type="text" placeholder="Enter Location">
-          <button>Check Weather</button>
+          <input type="text"  autocomplete="off" class="main-search-box"  placeholder="Enter Location">
+          <button type="submit" class="submitButton" onclick="mouseQuery()">Check Weather</button>
+        </div>
+
+        <div class="location">
+          <div class="city">City</div>
+          <div class="date">Friday 18 September 2020</div>
+        </div>
+
+        <div class="current">
+          <div class="temp">0<span>°c</span></div>
+          <div class="weather">Weather</div>
+          <div class="description">Weather Description</div>
+          <div class="hi-low">0°c / 0°c</div>
         </div>
       </div>
     </div>
@@ -54,8 +66,8 @@
 </section> 
 
   
-  <div class="attribution d-flex  align-content-center justify-content-center"> 
-    Coded by <a href="https://www.twitter.com/emmaglorypraise">Glory Praise</a>.
+  <div class="attribution d-flex  align-item-base justify-content-center"> 
+    Coded by <a href="https://www.twitter.com/emmaglorypraise" target="_blank">Glory Praise</a>.
   </div>
   <script src="js/main.js"></script>
   <script src="js/jquery.js" ></script>
