@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css"> -->
-  <title>SmashIT | Weather APP</title>
+  <title>WeatherAPP | Weather APP</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="css/main.css">
@@ -45,13 +45,13 @@
     <div class="row ">
       <div class="col-md-12">
         <div class="search-box ">
-          <input type="text"  autocomplete="off" class="main-search-box"  placeholder="Enter Location">
+          <input type="text"  autocomplete="off" class="main-search-box" onfocus="this.value=''" placeholder="Enter Location" required>
           <button type="submit" class="submitButton" onclick="mouseQuery()">Check Weather</button>
         </div>
 
         <div class="location">
           <div class="city">City</div>
-          <div class="date">Friday 18 September 2020</div>
+          <div class="date">Today 00 Month Year</div>
         </div>
 
         <div class="current">
@@ -66,8 +66,9 @@
 </section> 
 
   
-  <div class="attribution d-flex  align-item-base justify-content-center"> 
+  <div class="attribution d-flex p-3 align-item-center justify-content-center"> 
     Coded by <a href="https://www.twitter.com/emmaglorypraise" target="_blank">Glory Praise</a>.
+    All images were gotten from <a href="https://unsplash.com/" target="_blank">Unsplash</a>
   </div>
   <script src="js/main.js"></script>
   <script src="js/jquery.js" ></script>
