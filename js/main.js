@@ -47,49 +47,49 @@ function displayResults (weather) {
 
   // sets background image for each weather condition
   if (weather.weather[0].main == "Clouds") {
-    document.body.style.background = "URL('../images/clouds.jpg')";
+    document.body.style.background = "URL('https://res.cloudinary.com/geepee/image/upload/v1601370461/clouds.jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "left bottom";
     document.body.style.backgroundRepeat = "no-repeat";
   } else if (weather.weather[0].main == "Rain" ) {
-    document.body.style.background = "URL('../images/rain.jpg')";
+    document.body.style.background = "URL('https://res.cloudinary.com/geepee/image/upload/v1601370461/rain.jpg')";
     document.body.style.backgroundColor = "#000";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "left center";
     document.body.style.backgroundRepeat = "no-repeat";
   }  else if (weather.weather[0].main == "Drizzle" ) {
-    document.body.style.background = "URL('../images/rain.jpg')";
+    document.body.style.background = "URL('https://res.cloudinary.com/geepee/image/upload/v1601370461/rain.jpg')";
     document.body.style.backgroundColor = "#000";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "left center";
     document.body.style.backgroundRepeat = "no-repeat";
   } else if (weather.weather[0].main == "Sunny") {
-    document.body.style.background = "URL('../images/sunny.jpg')";
+    document.body.style.background = "URL('https://res.cloudinary.com/geepee/image/upload/v1601370468/sunny.jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "left center";
     document.body.style.backgroundRepeat = "no-repeat";
   } else if (weather.weather[0].main == "Clear"){
-    document.body.style.background = "URL('../images/clear.jpg')";
+    document.body.style.background = "URL('https://res.cloudinary.com/geepee/image/upload/v1601370458/clear.jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "left center";
     document.body.style.backgroundRepeat = "no-repeat";
   }  else if (weather.weather[0].main == "Mist" || weather.weather[0].main == "Haze"){
-    document.body.style.background = "URL('../images/mist.jpg')";
+    document.body.style.background = "URL('https://res.cloudinary.com/geepee/image/upload/v1601370468/mist.jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "left center";
     document.body.style.backgroundRepeat = "no-repeat";
   }   else if (weather.weather[0].main == "Wind"){
-    document.body.style.background = "URL('../images/wind.jpg')";
+    document.body.style.background = "URL('https://res.cloudinary.com/geepee/image/upload/v1601370466/windy.jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "left center";
     document.body.style.backgroundRepeat = "no-repeat";
   }   else if (weather.weather[0].main == "Snow"){
-    document.body.style.background = "URL('../images/snow.jpg')";
+    document.body.style.background = "URL('https://res.cloudinary.com/geepee/image/upload/v1601370467/snow.jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "left center";
     document.body.style.backgroundRepeat = "no-repeat";
   } else {
-    document.body.style.background = "URL('../images/cloud2.jpg')";
+    document.body.style.background = "URL('https://res.cloudinary.com/geepee/image/upload/v1601370459/cloud2.jpg)";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "left center";
     document.body.style.backgroundRepeat = "no-repeat";
