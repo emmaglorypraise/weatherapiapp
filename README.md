@@ -1,4 +1,4 @@
 # weatherapp
 Made with HTML, CSS, JavaScript
 
-Live link: coming soon....
+Live link: https://mycoolweatherapp.netlify.app/
